@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Firebase app </title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <div class="main-div" id="login_div">
+      <h3>InCentar</h3>
+      <input type="email" placeholder="email" id="email_field">
+      <input type="password" placeholder="password" id="password_field">
+      <button onclick="login()">Login</button>
+    </div>
+    <div id="user_div" class="loggedin-div">
+      <!-- NavBar -->
+      <div class="navBar">
+      <ul>
+        <li> <a class="active" id="user_para"> </a></li>
+      </ul>
+      <button onclick="logout()">Logout</button>
+      <button id="fileButton"><input type="file"></button>
+    </div>
+    <!-- Catalog -->
+    <div class="row" id="row">
+      <div class="column"><img id="catalogImg"><progress value="0" max="100"id="uploader">0%</progress></div>
+    </div>
+  </div>
+  <script src="/__/firebase/7.17.1/firebase-app.js"></script>
+  <script src="/__/firebase/7.17.1/firebase-analytics.js"></script>
+  <script src="/__/firebase/7.17.1/firebase-auth.js"></script>
+  <script src="/__/firebase/7.17.1/firebase-database.js"></script>
+  <script src="/__/firebase/7.17.1/firebase-firestore.js"></script>
+  <script src="/__/firebase/7.17.1/firebase-storage.js"></script>
+  <script src="/__/firebase/init.js"></script>
+  <script src="index.js"></script>
+  <script src="/components/storage.js"></script>
+  </body>
+</html>
