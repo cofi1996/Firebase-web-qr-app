@@ -40,3 +40,11 @@ function logout(){
         window.alert("Error")
     });
 };
+// function displayRegistration(){
+//     document.getElementById("login_div").style.display = "none";
+//     document.getElementById("register_div").style.display = "block";
+// };
+
+function register(){
+    var setPassword = 0;
+};
