@@ -13,8 +13,10 @@
 </template>
 <script>
 import TopHeader from "./components/TopHeader"
+
 export default {
-  components: {'top-header': TopHeader}
+  components: {
+    'top-header': TopHeader}
 }
 </script>
 

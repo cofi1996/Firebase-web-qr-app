@@ -1,14 +1,16 @@
 <template>
-    <div>
-        Secret
-    </div>
+    <form>
+        <div>
+            aaa
+        </div>
+    </form>
 </template>
 
 <script>
-// import Catalog from "@/components/Catalog.vue"
 
 export default {
     name: "Secret"
+    
 }
 </script>
 
